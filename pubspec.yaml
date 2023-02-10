@@ -1,0 +1,53 @@
+name: task_app
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.5
+  intl: ^0.18.0
+  shared_preferences: ^2.0.17
+  path: ^1.0.0
+  flutter_svg: ^2.0.0+1
+  http: ^0.13.5
+  cached_network_image: ^3.2.3
+  smooth_page_indicator: ^1.0.0+2
+  shimmer_animation: ^2.1.0+1
+  video_player: ^2.5.1
+  chewie: ^1.4.0
+
+
+  cupertino_icons: ^1.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.1
+
+
+flutter:
+  assets:
+    - assets/images/
+
+  uses-material-design: true
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
