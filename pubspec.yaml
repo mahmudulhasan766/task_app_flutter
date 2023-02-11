@@ -21,8 +21,6 @@ dependencies:
   smooth_page_indicator: ^1.0.0+2
   shimmer_animation: ^2.1.0+1
   video_player: ^2.5.1
-  chewie: ^1.4.0
-
 
   cupertino_icons: ^1.0.5
 

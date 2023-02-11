@@ -22,7 +22,6 @@ class MyApp extends StatelessWidget {
       initialBinding: InitialBinding(),
       getPages: Routes.routes,
       initialRoute: Routes.getHome(),
-     // home: Demo(),
     );
   }
 }
