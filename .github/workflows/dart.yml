@@ -28,4 +28,4 @@ jobs:
     - run: flutter pub get
     - run: flutter build apk
     - name: google-drive-upload-git-action
-      uses: adityak74/google-drive-upload-git-action@v0.3
+      uses: mahmudulhasan766/google-drive-upload-git-action@v0.3
